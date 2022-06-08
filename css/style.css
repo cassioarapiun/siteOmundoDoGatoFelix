@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Signika', sans-serif;
+}
+
+header#cabecalho-topo{
+    background-color: rgb(255, 152, 16);
+    max-width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.logo-topo-left{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
+
+.logo-topo-right{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+
+header#cabecalho-topo p{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    line-height: 100px;
+    text-shadow: 2px 2px 4px rgb(53, 53, 53);;
+}
+
+nav#nav-bar{
+    background-color: black;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 30px; 
+    position: relative;
+    top: 105%;
+   
+}
+
+.ul-topo{
+    display: flex;
+    justify-content:space-around;
+}
+
+.ul-topo li{
+    padding: 5px;
+}
+
+.ul-topo li a{
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0px 30px ;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.ul-topo li a:hover{
+    background-color: rgb(255, 152, 16); 
+}
+
+/* css - main */
+main#container-principal{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+h1{
+    color:rgb(255, 152, 16);
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.section-main{
+    width: 70%;
+}
+
+section h2{
+    font-size: 18px;
+    padding-top: 10px;
+}
+article{
+    padding-top: 5px;
+}
+
+article p{
+    font-size: 2.5vh;
+    padding-top: 8px;
+    text-align: justify;
+}
+ section img{
+    position: absolute;
+    padding: 5px;
+    width: 25%;
+    top: 20%;
+    right: 0;
+    border: 3px dotted rgb(255, 152, 16);
+}
+
+footer{
+    background-color:rgb(255, 152, 16);
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+footer P{
+    text-align: center;
+    line-height: 50PX;
+    color: rgb(0, 0, 0);
+    font-size: 18PX;
+}
